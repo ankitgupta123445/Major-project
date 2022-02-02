@@ -43,18 +43,20 @@
             <label for="radio-bath-5">5</label>
         </div>
         </form>
-        <h2>Location</h2>
-        <div>
+        <h2 style="text-align: center;">Location</h2>
+        <div id="loc">
             <select class="location" name="" id="uiLocations">
-    <option value="" disabled="disabled" selected="selected">Choose a Location</option>
-		<option>Electronic City</option>
-        <option>Rajaji Nagar</option>
-  </select>
+            <option value="" disabled="disabled" selected="selected">Choose a Location</option>
+		    <option>Electronic City</option>
+            <option>Rajaji Nagar</option>
+            </select>
         </div>
-        <button class="submit" onclick="onClickedEstimatePrice()" type="button">Estimate Price</button>
-        <div id="uiEstimatedPrice" class="result">
-            <h2></h2>
-        </div>
+        <section>
+            <button class="submit" onclick="onClickedEstimatePrice()" type="button">Estimate Price</button>
+            <div id="uiEstimatedPrice" class="result">
+                <h2>Price : </h2>
+            </div>
+        </section>
 </body>
 
 </html>
